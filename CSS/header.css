@@ -1,0 +1,40 @@
+.index_header {
+   position: sticky;
+   top: 0;
+   padding: 1.5% 5% 1.5% 1.5%;
+   font-size: 20px;
+   color: rgb(48, 46, 46);
+   text-align: right;
+   background-color: white;
+   text-transform: uppercase;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ul_border ui:not(:last-child) {
+   border-right: 1px solid rgb(209, 206, 206);
+   padding-right: 1%;
+}
+
+#head_logo {
+   width: 140px;
+}
+
+.english_icon {
+   width: 25px;
+   max-width: 3%;
+
+}
+
+.english_icon:hover {
+   opacity: 0.8;
+}
+
+
+.fb_icon {
+   width: 25px;
+   max-width: 3%;
+}
+
+.fb_icon:hover {
+   opacity: 0.8;
+}
