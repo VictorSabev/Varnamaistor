@@ -10,19 +10,22 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.ul_border ui:not(:last-child) {
+.hidden{
+    display: none;
+}
+
+.ul_border li:not(:last-child) {
    border-right: 1px solid rgb(209, 206, 206);
    padding-right: 1%;
 }
 
-#head_logo {
+.site_logo {
    width: 140px;
 }
 
 .english_icon {
    width: 25px;
    max-width: 3%;
-
 }
 
 .english_icon:hover {
