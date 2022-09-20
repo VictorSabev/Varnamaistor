@@ -2,11 +2,6 @@ ul {
    list-style: none;
 }
 
-img {
-   width: 100%;
-   height: auto
-}
-
 body {
    background-color: rgb(248, 248, 248);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,8 +13,6 @@ h2 {
    text-transform: uppercase;
    font-weight: bold;
 }
-
-.grid_uslugi {}
 
 a {
    color: black;
@@ -44,6 +37,12 @@ a:hover,
    text-transform: uppercase;
 }
 
+.big_logo {
+   max-width: 100%;
+   height: 270px;
+
+}
+
 .about {
    background-color: rgb(26, 99, 163);
    color: white;
@@ -66,12 +65,9 @@ a:hover,
    border-radius: 3px
 }
 
-.uslugi_link a {
-   color: white;
-}
-
 .uslugi_link:hover {
    opacity: 0.9;
+   color: white;
 }
 
 .link_contact_form {
@@ -83,6 +79,17 @@ a:hover,
    padding-right: 3%;
    text-align: center;
 }
+
+.contact_link a {
+   color: white;
+}
+
+.conrtact_link a:hover {
+   color: white;
+   text-decoration: none;
+   opacity: 0.8;
+}
+
 
 h4 {
    text-align: center;
@@ -111,4 +118,57 @@ h4 {
 
 #teahouse {
    width: 200px;
+}
+
+/*.grid_uslugi {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+}
+*/
+
+.grid_uslugi {
+       
+    display: grid;
+
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(4 1fr);
+
+    grid-gap: 1em;
+
+    padding: 10px;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid_uslugi div {
+   padding: 5%px;
+   border: 1px solid black;
+}
+
+.el {
+   grid-column: 1 / 2;
+}
+
+.sot {
+   grid-column: 2 / 3; 
+}
+
+.cctv {
+   grid-column: 3 / 4; 
+}
+
+.acc {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3; 
+}
+
+.doorphone {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3; 
+}
+
+.parking {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
 }

@@ -20,3 +20,7 @@ footer {
  footer .footer_logo {
     width: 200px;
  }
+
+ .nav_line, li {
+    display: inline;
+ }
