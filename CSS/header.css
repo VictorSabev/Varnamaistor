@@ -11,28 +11,14 @@ header {
    text-transform: uppercase;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    align-items: flex-end;
-   
-   
-   
-}
-
-
-
-.hidden{
-    display: none;
+       
 }
 
 .site_logo { 
-   margin-right:auto; 
-                  
+   margin-right:auto;
+                     
 }
 
-.ul_border li:not(:last-child) 
-{
-  
-   border-right: 1px solid rgb(209, 206, 206);
-   
-}
  
 .english_icon {
    width: 25px;
